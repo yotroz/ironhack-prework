@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: Open Sans;
+  
+}
+
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+
+.top-left {
+  padding:8.5px 0;
+  vertical-align: baseline;
+  display: inline-block;
+  padding: 0 0 0 8.5px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0 0 0 8.5px;
+  margin: 0 20px 0 0;
+  vertical-align: baseline;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+
+.bar-logo {
+  margin: 0 auto; 
+  height: 82px; 
+}
+
+.bar-logo img {
+  height: 80%;
+  margin: 15px; 
+  float: left; 
+}
+
+.bar-logo input { 
+  background-color: rgb(31, 82, 111);
+  float: left;
+  height: 50px;
+  width: 85%; 
+  margin-right: 0; 
+  font-size: 18px;
+  border: none; 
+}
+
+form {
+  height: 82px; 
+  width: 75%; 
+  float:left;
+  padding-top: 15px;
+} 
+
+.bar-logo button {
+  float: left;
+  height: 52px; 
+  width: 52px;
+  background-color: rgb(31, 82, 111);
+  border: none; 
+  border-left: 1px solid white; 
+}
+
+.clearfix {
+  clear:both; 
+}
+
+
+header {
+  /* background-color: rgb(39, 53, 71,.8) ;  */
+  background-image: url("../starter-code/images/city-scape.svg")
+  
+} 
+
+
+
+
+/* .header-image {
+  width: 100%; 
+  height: 516px;  
+  position: absolute;
+  left: 0px;
+  top: 65px; 
+  z-index: -1;
+}  */
+
+
+.hero-header h1 {
+  color: white;
+  font-size: 42px; 
+  height: 87px;   
+  margin-top: 5%; 
+  margin-bottom: 0; 
+  font-weight: lighter; 
+}
+
+.hero-header p {
+  color: white; 
+  height: 85px;
+  font-weight: lighter; 
+}
+
+.header-content {
+  text-align: left;
+  width: 520px;
+  height: 400px;  
+  margin: 0 auto; 
+  padding-right: 40%; 
+  padding-left: 15%; 
+  padding-bottom: 0; 
+}
+
+.header-content button {
+  background-color: rgb(240, 146, 51);  
+  color: white; 
+  font-size: inherit; 
+  border: 0; 
+  border-radius: 100px; 
+  height: 42px;
+  width: 33%; 
+
+}
+
+.bar-log: after {
+  content: ""; 
+  display: block; 
+  clear: both; 
+}
+
+#sign-up {
+  background-color: rgb(39, 53, 71); 
+  display: inherit;
+  position: relative;
+  float: none; 
+  overflow: hidden;
+} 
+
+.collaboration-content {
+  margin: 0 auto; 
+  padding: 7%; 
+}
+
+#sign-up img {
+  height: 266px; 
+  width: 448px; 
+  padding-left: 8%; 
+}
+
+.collaboration-text {
+  float: right; 
+  color: white; 
+}
+
+.collaboration-text h2 {
+  width: 70%; 
+  font-size: 1.5em;
+}
+
+.collaboration-text ul {
+  line-height: 2.5em; 
+}
+
+.orgs-button {
+  background-color: rgb(203, 56, 55); 
+  color: white; 
+  font-size: inherit; 
+  border: 0; 
+  border-radius: 100px; 
+  height: 42px;
+  width: 30%; 
+}
+
+ .link-orgs {
+  text-decoration: none; 
+  color: white; 
+  line-height: 200%; 
+}
+
+
+#install {
+  /* background-color: rgb(39, 53, 71,.8) ;  */
+  background-image: url("../starter-code/images/forklift.svg"); 
+  overflow: hidden; 
+  height: 508px;
+  position: relative;
+  top: 0px; 
+} 
+
+
+.install-content-wrapper {
+  margin: 0 auto;  
+  position: absolute;
+  top: 100px;
+  left: 200px;  
+  color: white; 
+  width: 25%; 
+} 
+
+#install h2 {
+  font-weight: 200; 
+  font-size: 2em; 
+}
+
+.install-button {
+  background-color:rgb(49, 68, 88); 
+  color: white; 
+  font-size: inherit; 
+  border: 0; 
+  border-radius: 100px; 
+  height: 42px;
+  width: 128px; 
+}
+
+#services {
+  height: 514px; 
+}
+
+.text-header-services {
+  margin: 0 auto; 
+  text-align: center; 
+  padding: 2% 0; 
+  max-width: 900px; 
+}
+
+.text-header-services h2 {
+  font-size: 2em; 
+}
+#services h4 {
+  color:  rgb(83, 88, 98);
+}
+
+#services a {
+  text-decoration: none; 
+  color: rgb(208, 74, 73); 
+}
+#services p {
+  color: rgb(135, 145, 156); 
+}
+.text-header-services: after {
+  content: ""; 
+  display: block; 
+  clear: both; 
+}
+
+.service-box-wrapper {
+  margin: 0 auto; 
+
+}
+.service-boxes {
+  width: 33%;  
+  float: left;  
+  text-align: center;
+}
+
+.services-paragraph {
+  padding: 0 23%; 
+}
